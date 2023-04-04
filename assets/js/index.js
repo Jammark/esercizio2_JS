@@ -23,7 +23,7 @@ var name = "Marco";
 
 //es 3
 var somma = 12;
-12 += 20;
+somma += 20;
 
 //es 4
 var x;
@@ -32,7 +32,7 @@ x = 12;
 //es5 
 name = "Di Nicola";
 const costante = 5;
-costante = 4;
+//costante = 4;
 console.log('costante con valore 5 :' + costante);
 
 //es 6
@@ -46,5 +46,6 @@ var name1, name2;
 name1 = "jhon";
 name2 = "Jhon";
 
-console.log('jhon == Jhon: '+name1 == name2);
-console.log('jhon == Jhon to lowercase: '+name1 == name2.toLowerCase);
+console.log('jhon == Jhon: '+ (name1 == name2));
+console.log('jhon == Jhon to lowercase: '+(name1 == name2.toLowerCase()));
+
